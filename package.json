@@ -1,0 +1,21 @@
+{
+  "name": "docker-gateway",
+  "version": "1.0.0",
+  "description": "Gateway for docker use nginx.",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "install:mac": "./bin/install-mac.sh",
+    "install:ubuntu": "./bin/install-ubuntu.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afeiship/docker-gateway.git"
+  },
+  "author": "afeiship",
+  "bugs": {
+    "url": "https://github.com/afeiship/docker-gateway/issues"
+  },
+  "homepage": "https://github.com/afeiship/docker-gateway#readme"
+}

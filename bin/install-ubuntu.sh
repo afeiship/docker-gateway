@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-
-rm -rf /etc/nginx/conf.d
-ln -s $HOME/github/docker-gateway/nginx/conf.d /etc/nginx
+dir=/usr/local/etc/nginx/servers
+rm -rf $dir
+mkdir -p $dir
+ln -s $HOME/github/docker-gateway/nginx/conf.d $dir
