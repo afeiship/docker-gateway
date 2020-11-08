@@ -1,5 +1,3 @@
 #!/usr/bin/env bash
-dir=/usr/local/etc/nginx/servers
-rm -rf $dir
-mkdir -p $dir
-ln -s $HOME/github/docker-gateway/nginx/conf.d $dir
+rm -rf /etc/nginx/sites-enabled
+ln -s $HOME/github/docker-gateway/sites-enabled /etc/nginx/
